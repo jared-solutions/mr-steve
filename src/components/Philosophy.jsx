@@ -31,7 +31,7 @@ const values = [
 
 export default function Philosophy() {
   return (
-    <section id="philosophy" style={{ background: 'var(--surface)' }}>
+    <section id="philosophy" style={{ background: 'var(--surface)', padding: '8rem 0' }}>
       <div className="container">
         <motion.h2
           className="section-title"

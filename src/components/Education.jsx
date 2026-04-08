@@ -24,7 +24,7 @@ const educationItems = [
 
 export default function Education() {
   return (
-    <section id="education" style={{ background: 'var(--background)' }}>
+    <section id="education" style={{ background: 'var(--background)', padding: '8rem 0' }}>
       <div className="container">
         <motion.h2
           className="section-title"

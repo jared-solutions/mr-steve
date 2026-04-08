@@ -102,10 +102,10 @@ export default function Experience() {
               }}></div>
 
               <div style={{
-                width: 'calc(60% - 40px)',
+                width: 'calc(70% - 40px)',
                 background: 'var(--surface)',
                 borderRadius: '15px',
-                padding: '2rem',
+                padding: '3rem',
                 boxShadow: 'var(--shadow)',
                 borderLeft: exp.isCurrent ? '4px solid var(--secondary)' : '4px solid var(--primary)',
               }}>

@@ -10,7 +10,7 @@ const stats = [
 
 export default function About() {
   return (
-    <section id="about" style={{ background: 'var(--surface)' }}>
+    <section id="about" style={{ background: 'var(--surface)', padding: '8rem 0' }}>
       <div className="container">
         <motion.h2
           className="section-title"
