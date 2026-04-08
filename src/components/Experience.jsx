@@ -48,7 +48,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" style={{ background: 'var(--background)' }}>
+    <section id="experience" style={{ background: 'var(--background)', padding: '8rem 0' }}>
       <div className="container">
         <motion.h2
           className="section-title"
@@ -86,7 +86,7 @@ export default function Experience() {
                 position: 'relative',
                 display: 'flex',
                 justifyContent: index % 2 === 0 ? 'flex-start' : 'flex-end',
-                paddingBottom: '3rem',
+                paddingBottom: '5rem',
               }}
             >
               <div style={{
