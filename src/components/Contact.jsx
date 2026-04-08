@@ -146,9 +146,9 @@ export default function Contact() {
               <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.875rem', marginBottom: '0.5rem' }}>
                 References
               </p>
-              <p style={{ color: 'white', fontWeight: 600 }}>Mr Steve</p>
-              <p style={{ color: 'rgba(255,255,255,0.8)' }}>Principal, Drumvale Secondary School - 0797222146</p>
-              <p style={{ color: 'white', fontWeight: 600, marginTop: '0.5rem' }}>Stellah Sikuku</p>
+              <p style={{ color: 'white', fontWeight: 600 }}>Elphas Ontita</p>
+              <p style={{ color: 'rgba(255,255,255,0.8)' }}>Principal, Drumvale Secondary School - 0748484220</p>
+              <p style={{ color: 'white', fontWeight: 600, marginTop: '0.5rem' }}>Ezekiel Manundu</p>
               <p style={{ color: 'rgba(255,255,255,0.8)' }}>Principal, Asumbi Teachers College - 0722467565</p>
             </div>
           </motion.div>

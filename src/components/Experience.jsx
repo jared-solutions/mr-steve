@@ -207,11 +207,16 @@ export default function Experience() {
           }
           #experience > div > div > div:not(:first-child) {
             width: 100% !important;
-            margin-left: 20px !important;
+            margin-left: 0 !important;
             justify-content: flex-start !important;
+            paddingBottom: 3rem !important;
+          }
+          #experience > div > div > div:not(:first-child) > div:nth-child(2) {
+            width: 100% !important;
+            padding: 2rem !important;
           }
           #experience > div > div > div:not(:first-child) > div:first-child {
-            left: 0 !important;
+            left: 20px !important;
             transform: translateX(-50%) !important;
           }
         }
