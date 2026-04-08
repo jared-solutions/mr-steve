@@ -1,4 +1,4 @@
-import { ArrowUp } from 'lucide-react';
+import { ArrowUp, Share2, Music, Mail, Phone } from 'lucide-react';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -31,18 +31,18 @@ export default function Footer() {
 
           <div style={{ display: 'flex', gap: '0.75rem' }}>
             {[
-              { label: 'FB', color: '#1877F2', href: 'https://www.facebook.com' },
-              { label: 'X', color: '#000000', href: 'https://www.x.com' },
-              { label: 'IG', color: '#E4405F', href: 'https://www.instagram.com' },
-              { label: 'LI', color: '#0077B5', href: 'https://www.linkedin.com' },
+              { Icon: Share2, title: 'Facebook', color: '#1877F2', href: 'https://www.facebook.com' },
+              { Icon: Music, title: 'TikTok', color: '#000000', href: 'https://www.tiktok.com' },
+              { Icon: Mail, title: 'Email', color: '#EA4335', href: 'mailto:contact@example.com' },
+              { Icon: Phone, title: 'Call', color: '#34A853', href: 'tel:0746928424' },
             ].map((social) => (
               <a
-                key={social.label}
+                key={social.title}
                 href={social.href}
                 target="_blank"
                 rel="noreferrer"
-                aria-label={social.label}
-                title={social.label}
+                aria-label={social.title}
+                title={social.title}
                 style={{
                   width: '40px',
                   height: '40px',
@@ -53,11 +53,9 @@ export default function Footer() {
                   justifyContent: 'center',
                   color: 'white',
                   textDecoration: 'none',
-                  fontSize: '14px',
-                  fontWeight: 600,
                 }}
               >
-                {social.label}
+                <social.Icon size={20} />
               </a>
             ))}
           </div>
