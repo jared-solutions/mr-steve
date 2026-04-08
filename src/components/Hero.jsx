@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Phone, Mail, MapPin, ChevronDown } from 'lucide-react';
+import { Phone, Mail, MapPin, ChevronDown, Book, Pencil, Palette, Calculator } from 'lucide-react';
 
 export default function Hero() {
   const scrollToSection = (id) => {
@@ -22,6 +22,63 @@ export default function Hero() {
         background: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.05\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")',
         opacity: 0.5,
       }}></div>
+
+      {/* Floating educational elements */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 0.7, y: [0, -20, 0] }}
+        transition={{ duration: 3, repeat: Infinity, delay: 0 }}
+        style={{
+          position: 'absolute',
+          top: '20%',
+          left: '10%',
+          color: 'rgba(255,255,255,0.6)',
+        }}
+      >
+        <Book size={40} />
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 0.7, y: [0, -15, 0] }}
+        transition={{ duration: 2.5, repeat: Infinity, delay: 0.5 }}
+        style={{
+          position: 'absolute',
+          top: '30%',
+          right: '15%',
+          color: 'rgba(255,255,255,0.6)',
+        }}
+      >
+        <Pencil size={35} />
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 0.7, y: [0, -25, 0] }}
+        transition={{ duration: 4, repeat: Infinity, delay: 1 }}
+        style={{
+          position: 'absolute',
+          bottom: '40%',
+          left: '20%',
+          color: 'rgba(255,255,255,0.6)',
+        }}
+      >
+        <Palette size={38} />
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 0.7, y: [0, -18, 0] }}
+        transition={{ duration: 3.5, repeat: Infinity, delay: 1.5 }}
+        style={{
+          position: 'absolute',
+          bottom: '30%',
+          right: '10%',
+          color: 'rgba(255,255,255,0.6)',
+        }}
+      >
+        <Calculator size={36} />
+      </motion.div>
 
       <div className="container" style={{
         display: 'flex',
@@ -88,6 +145,21 @@ export default function Hero() {
           Teacher | Educational Leader | Academic Mentor
           <br />
           CBE-aligned teaching and leadership for Kenyan schools
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          style={{
+            fontSize: '1.125rem',
+            opacity: 0.8,
+            marginBottom: '1rem',
+            fontStyle: 'italic',
+            color: 'rgba(255,255,255,0.9)',
+          }}
+        >
+          "Learning is an adventure – let's explore it together!"
         </motion.p>
 
         <motion.div
