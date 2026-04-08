@@ -9,6 +9,7 @@
   --text-secondary: #718096;
   --accent: #d69e2e;
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.15);
   --transition: 0.3s ease;
 }
 
@@ -76,8 +77,75 @@ section {
 
 .btn:hover {
   background: var(--primary);
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(26, 54, 93, 0.2);
+  transition: var(--transition);
 }
+
+.btn:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Card Hover Effects */
+#experience > div > div > div:nth-child(n+2) > div {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#experience > div > div > div:nth-child(n+2):hover > div {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+#education > div > div > div,
+#philosophy > div > div > div {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#education > div > div > div:hover,
+#philosophy > div > div > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon Animation on Hover */
+section svg {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#experience:hover svg,
+#education:hover svg,
+#philosophy:hover svg {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Link Underline Animation */
+a {
+  position: relative;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--secondary);
+  transition: width 0.3s ease;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+/* Backdrop Blur for Overlays */
+@supports (backdrop-filter: blur(10px)) {
+  nav {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.95) !important;
+  }
+}
+
 
 @media (max-width: 768px) {
   .container {

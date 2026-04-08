@@ -66,6 +66,10 @@ export default function Hero() {
             fontSize: '3.5rem',
             marginBottom: '0.5rem',
             textShadow: '0 2px 10px rgba(0,0,0,0.2)',
+            background: 'linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            backgroundClip: 'text',
           }}
         >
           Ombongi Mogonchi Steve
