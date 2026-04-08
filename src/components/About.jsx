@@ -78,6 +78,15 @@ export default function About() {
 
             <p style={{
               color: 'var(--text-secondary)',
+              marginBottom: '1.5rem',
+              fontSize: '1.125rem',
+            }}>
+              I design CBC-aligned lessons and school leadership strategies that support Kenya's 
+              Competency-Based Curriculum and build learner confidence in classrooms across the country.
+            </p>
+
+            <p style={{
+              color: 'var(--text-secondary)',
               marginBottom: '2rem',
               fontSize: '1.125rem',
             }}>

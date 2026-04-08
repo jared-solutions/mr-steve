@@ -5,27 +5,27 @@ const values = [
   {
     icon: Heart,
     title: 'Holistic Development',
-    description: 'Developing learners intellectually, emotionally, socially, and physically—not just academically.',
+    description: 'Developing learners intellectually, emotionally, socially, and physically through CBC competencies—not just academically.',
   },
   {
     icon: Lightbulb,
     title: 'Effective Learning',
-    description: 'Ensuring students understand concepts clearly by using appropriate teaching methods, materials, and strategies.',
+    description: 'Ensuring students master concepts clearly through CBC-aligned methods, resources, and assessment.',
   },
   {
     icon: Users,
     title: 'Values and Ethics',
-    description: 'Guiding learners to develop good character, discipline, responsibility, and respect for others.',
+    description: 'Guiding learners to develop good character, discipline, responsibility, and respect—as required by CBC learner profiles.',
   },
   {
     icon: Target,
     title: 'Critical Thinking & Creativity',
-    description: 'Helping students analyze, question, and solve problems independently while nurturing innovation.',
+    description: 'Helping students analyze, question, and solve problems independently while nurturing innovation in CBC contexts.',
   },
   {
     icon: BookOpen,
     title: 'Individual Learner Needs',
-    description: 'Recognizing that students are different and adapting teaching to suit diverse abilities, backgrounds, and learning styles.',
+    description: 'Recognizing students are different and adapting teaching to suit CBC progression, abilities, and learning styles.',
   },
 ];
 
@@ -56,9 +56,9 @@ export default function Philosophy() {
             fontSize: '1.125rem',
           }}
         >
-          My teaching philosophy is built on the belief that every student has the potential 
-          to excel. I strive to create an environment where holistic development is nurtured, 
-          excellence is expected, supported, and celebrated.
+          My teaching philosophy is built around Kenya’s Competency-Based Curriculum. I help students 
+          grow in knowledge, skills and values through CBC-aligned learning experiences that prepare 
+          them for real-life success.
         </motion.p>
 
         <div style={{

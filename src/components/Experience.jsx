@@ -7,7 +7,7 @@ const experiences = [
     role: 'Head Of Academics',
     institution: 'Green River Learning Centre',
     period: 'Jan 2024 - Present',
-    description: 'Leading academic programs and teaching Mathematics, English, Kiswahili, Pre-technical studies, Creative Arts, and Sports. Overseeing curriculum implementation and academic excellence.',
+    description: 'Leading academic programs and teaching Mathematics, English, Kiswahili, Pre-technical studies, Creative Arts, and Sports. Overseeing CBC curriculum implementation and academic excellence.',
     achievements: [
       'Improved overall academic performance',
       'Implemented modern teaching methodologies',
@@ -21,7 +21,7 @@ const experiences = [
     role: 'Senior Teacher',
     institution: 'Marani Shine School',
     period: 'Jan 2021 - Jan 2023',
-    description: 'Served as Senior Teacher teaching Mathematics, English, Kiswahili, Science, Creative Arts, and Sports. Mentored junior teachers and developed curriculum materials.',
+    description: 'Served as Senior Teacher teaching Mathematics, English, Kiswahili, Science, Creative Arts, and Sports. Mentored junior teachers and developed CBC-aligned curriculum materials.',
     achievements: [
       'Developed innovative teaching strategies',
       'Increased student engagement by 30%',
@@ -35,7 +35,7 @@ const experiences = [
     role: 'Teacher',
     institution: 'Linet Academy School',
     period: 'Sep 2017 - Nov 2019',
-    description: 'Taught Mathematics, English, Kiswahili, Science, Creative Arts, and Sports to elementary students. Developed lesson plans and interactive learning materials.',
+    description: 'Taught Mathematics, English, Kiswahili, Science, Creative Arts, and Sports to elementary students. Developed CBC-oriented lesson plans and interactive learning materials.',
     achievements: [
       'Created engaging lesson materials',
       'Improved student comprehension',
