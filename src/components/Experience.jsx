@@ -62,7 +62,7 @@ export default function Experience() {
 
         <div style={{
           position: 'relative',
-          maxWidth: '900px',
+          maxWidth: '1200px',
           margin: '0 auto',
         }}>
           <div style={{
@@ -102,7 +102,7 @@ export default function Experience() {
               }}></div>
 
               <div style={{
-                width: 'calc(50% - 40px)',
+                width: 'calc(60% - 40px)',
                 background: 'var(--surface)',
                 borderRadius: '15px',
                 padding: '2rem',
