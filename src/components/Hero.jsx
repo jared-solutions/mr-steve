@@ -87,7 +87,7 @@ export default function Hero() {
         >
           Teacher | Educational Leader | Academic Mentor
           <br />
-          CBC-aligned teaching and leadership for Kenyan schools
+          CBE-aligned teaching and leadership for Kenyan schools
         </motion.p>
 
         <motion.div
