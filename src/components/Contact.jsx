@@ -255,6 +255,22 @@ export default function Contact() {
                   </>
                 )}
               </button>
+
+              {isSubmitted && (
+                <div style={{
+                  marginTop: '1rem',
+                  padding: '1rem',
+                  background: 'rgba(56, 142, 60, 0.12)',
+                  border: '1px solid rgba(56, 142, 60, 0.3)',
+                  borderRadius: '10px',
+                  color: '#fff',
+                }}>
+                  <p style={{ margin: 0, fontWeight: 600 }}>Success!</p>
+                  <p style={{ margin: '0.5rem 0 0', color: 'rgba(255,255,255,0.9)' }}>
+                    Your message has been sent successfully. I will get back to you soon.
+                  </p>
+                </div>
+              )}
             </form>
           </motion.div>
         </div>
